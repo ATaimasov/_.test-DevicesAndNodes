@@ -72,6 +72,8 @@ const completeTodo = (todo) => {
     gap: 20px;
     overflow-x: auto;
     max-height: 92%;
+    scrollbar-color: #ccc transparent;
+    scrollbar-width: thin;
 }
 
 input {

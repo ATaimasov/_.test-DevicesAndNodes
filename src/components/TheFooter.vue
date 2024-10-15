@@ -1,7 +1,7 @@
 <template>
     <Teleport to="#footer">
             <div class="statistic-item">
-                <p>Todos: {{ todoList.length }}</p>
+                <p>All Todos: {{ todoList.length }}</p>
                 <DeleteIcon @click="store.removeAllTodos"
                 :style="todoList.length === 0 ? { color: 'gray', pointer: 'none' } : ''"
                 />
@@ -9,13 +9,13 @@
             <div class="statistic-item">
                 <p>Completed: {{ todoList.filter((todo) => todo.completed).length }}</p>
                 <DeleteIcon @click="store.removeCompletedTodos"
-                :style="todoList.filter((todo) => todo.completed).length === 0 ? { color: 'gray', pointer: 'none' } : ''"
+                :style="todoList.filter((todo) => todo.completed).length === 0 ? { color: 'gray', cursor: 'not-allowed' } : ''"
                 />
             </div>
             <div class="statistic-item">
                 <p>Remaining: {{ todoList.filter((todo) => !todo.completed).length }}</p>
                 <DeleteIcon @click="store.removeRemainingTodos"
-                :style="todoList.filter((todo) => !todo.completed).length === 0 ? { color: 'gray', pointer: 'none' } : ''"
+                :style="todoList.filter((todo) => !todo.completed).length === 0 ? { color: 'gray', cursor: 'not-allowed' } : ''"
                 />
             </div>
     </Teleport>
