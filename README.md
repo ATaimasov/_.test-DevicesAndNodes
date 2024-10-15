@@ -1,29 +1,36 @@
-# ToDo
+# ToDo List
 
-This template should help get you started developing with Vue 3 in Vite.
+## Введение
 
-## Recommended IDE Setup
+Классический ToDo.
+Можно добавлять заметки, редактировать удалять, ставить выполненными.
+Заметки сохраняются в localStorage
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Проект на сервере: ToDo.таймасов.рф
 
-## Customize configuration
+## Установка и запуск проекта
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+Клонировать репозиторий:
 
-## Project Setup
+    git clone https://github.com/ATaimasov/ToDo
 
-```sh
-npm install
-```
+Установить зависимости:
 
-### Compile and Hot-Reload for Development
+    npm install
 
-```sh
-npm run dev
-```
+Запустить проект:
 
-### Compile and Minify for Production
+    npm run dev
 
-```sh
-npm run build
-```
+
+## Используемые технологии и подходы
+
+#### Основа:
+- Vue
+- CSS;
+- Pinia;
+
+Дополнительно использовано в разработке:
+- uid для генерации уникального id
+
+

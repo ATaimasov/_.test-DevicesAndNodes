@@ -24,6 +24,7 @@ const { addTodo } = store
     align-items: center;
     justify-content: start;
     gap: 10px;
+    padding: 15px;
 }
 
 .add-icon:hover {
