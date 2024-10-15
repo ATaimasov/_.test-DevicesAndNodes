@@ -1,10 +1,4 @@
-<template>
-    <Teleport to="#header">
-          <h1 @click="showData">ToDo List</h1>
-    </Teleport>
-</template>
-
-<script setup>
+// одно из требуемых заданий для тестового - реализация fake api запроса
 
 const URL = 'https://petstore3.swagger.io/api/v3'
 const URL_DATA = '/pet/findByStatus?status=available'
@@ -30,11 +24,6 @@ const showData =  async () => {
 
 showData()
 
-</script>
+// реализацию скрипта можно посмотреть в TheHeader (при нажатии на заголовок будет осуществлен запрос)
 
 
-<style  scoped>
-
-
-
-</style>
