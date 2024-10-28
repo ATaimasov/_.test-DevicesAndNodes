@@ -37,8 +37,6 @@ import NodeItem from '@/components/DeviceItem.vue'
 import RemoveElement from '@/components/RemoveElement.vue'
 import EditIcon from '@/components/icons/EditIcon.vue'
 import AddNode from '@/components/AddNode.vue'
-import draggable from 'vuedraggable'
-
 
 const { device} = defineProps({
   device: Object,
