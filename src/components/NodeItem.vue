@@ -1,5 +1,5 @@
 <template>
-    <div class="todo-item">
+    <div class="node-item">
         <slot></slot>
     </div>
 </template>
@@ -10,7 +10,7 @@
 
 <style scoped>
 
-.todo-item {
+.node-item {
   display: flex;
   justify-content: space-between;
   align-items: center;

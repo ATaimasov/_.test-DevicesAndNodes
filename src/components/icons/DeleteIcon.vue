@@ -7,6 +7,7 @@
 export default {
   name: 'SiArchiveAltFill'
 }
+
 </script>
 
 <style scoped>
