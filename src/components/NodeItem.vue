@@ -1,15 +1,12 @@
 <template>
-    <div class="node-item">
-        <slot></slot>
-    </div>
+  <div class="node-item">
+    <slot></slot>
+  </div>
 </template>
 
-<script setup>
-
-</script>
+<script setup></script>
 
 <style scoped>
-
 .node-item {
   display: flex;
   justify-content: space-between;
@@ -21,5 +18,4 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
-
 </style>

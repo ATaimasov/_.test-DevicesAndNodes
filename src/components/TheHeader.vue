@@ -1,15 +1,9 @@
 <template>
-    <Teleport to="#header">
-          <h1>Устройства и узлы</h1>
-    </Teleport>
+  <Teleport to="#header">
+    <h1>Устройства и узлы</h1>
+  </Teleport>
 </template>
 
-<script setup>
-</script>
+<script setup></script>
 
-
-<style  scoped>
-
-
-
-</style>
+<style scoped></style>
